@@ -1,0 +1,30 @@
+texto,lon,lat,tipo,zoom_min,zoom_max,fonte
+ITÁLIA,13.999,42.606,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+MACEDÔNIA,22.598,41.706,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+ACAIA,21.9,38.605,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+TRÁCIA,26.0,42.005,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+BITÍNIA E PONTO,32.399,41.404,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+ÁSIA,28.399,39.204,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+GALÁCIA,32.999,39.204,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+CAPADÓCIA,35.801,38.704,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+LÍCIA E PANFÍLIA,30.6,37.005,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+CILÍCIA,34.6,37.604,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+SÍRIA,37.301,35.304,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+JUDEIA,34.6,31.206,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+CHIPRE,33.201,34.604,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+CRETA,24.9,35.004,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+CIRENAICA,21.501,31.804,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+EGITO,31.801,30.705,região,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+MARE NOSTRUM,20.501,34.505,mar,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+MAR EGEU,25.699,36.904,mar,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+MAR NEGRO,31.5,43.205,mar,0,2.6,extração Cowork 09/11 (mapa 1); posição indicativa
+ÉPIRO,20.391,39.9,região,1.6,6,extração Cowork 09/11 (mapa 2); posição indicativa
+MAR ADRIÁTICO,17.589,41.9,mar,1.6,6,extração Cowork 09/11 (mapa 2); posição indicativa
+MAR JÔNIO,18.489,38.6,mar,1.6,6,extração Cowork 09/11 (mapa 2); posição indicativa
+PANFÍLIA,31.699,36.752,região,1.6,6,extração Cowork 09/11 (mapa 3); posição indicativa
+MAR MEDITERRÂNEO,30.999,34.001,mar,1.6,6,extração Cowork 09/11 (mapa 3); posição indicativa
+FRÍGIA,30.199,39.397,região,1.6,6,extração Cowork 09/11 (mapa 4); posição indicativa
+rio Meandro,28.35,37.782,rio,8,99,extração Cowork 09/11 (mapa 7); posição indicativa
+rio Lico,29.449,37.652,rio,8,99,extração Cowork 09/11 (mapa 7); posição indicativa
+LÍDIA,27.9,38.851,região,8,99,extração Cowork 09/11 (mapa 7); posição indicativa
+CÁRIA,27.9,37.302,região,8,99,extração Cowork 09/11 (mapa 7); posição indicativa

@@ -1,0 +1,23 @@
+
+/* ── motor 2026-10 · duas versões da Bíblia (BKJ 1611 principal + ARA de comparação) ── */
+/* Três desenhos em teste; o Arthur escolhe um (campo "versões na tela" da aula). */
+.versiculo.v2 .ver{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--vermelho)}
+.versiculo.v2 .cmp{font-family:var(--sans);color:var(--rico);text-transform:none}
+/* 1. embaixo: a ARA menor, sob a BKJ */
+.versiculo.v2.embaixo .cmp{max-width:900px;margin:22px auto 0;padding-top:14px;border-top:1px solid var(--faixa);font-size:17px;line-height:1.45;font-weight:400}
+.versiculo.v2.embaixo .cmp .ver,.versiculo.v2.clique .cmp .ver{display:block;margin-bottom:6px}
+/* 2. lado a lado: duas colunas do mesmo peso visual, a ARA em cinza */
+.versiculo.v2.ladoalado{display:grid;grid-template-columns:1fr 1fr;gap:20px 44px;text-align:left;max-width:1168px}
+.versiculo.v2.ladoalado .col .ver{margin-bottom:10px}
+.versiculo.v2.ladoalado .cit,.versiculo.v2.ladoalado .cit.g{font-size:22px;line-height:1.35}
+.versiculo.v2.ladoalado .cmp .cit{color:#555;font-weight:600}
+.versiculo.v2.ladoalado > .ref{grid-column:1/-1;text-align:center;font-size:13px;letter-spacing:.06em;font-weight:500;color:var(--vermelho)}
+/* 3. ao clicar: a ARA aparece num botão, sem ocupar a tela */
+.versiculo.v2.clique .vbtn{margin-top:18px;font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:#fff;color:var(--rico);border:2px solid var(--preto);padding:7px 14px;cursor:pointer}
+.versiculo.v2.clique .cmp{display:none;max-width:900px;margin:16px auto 0;font-size:17px;line-height:1.45}
+.versiculo.v2.clique.aberta .cmp{display:block}
+.versiculo.v2.clique.aberta .vbtn{background:var(--vermelho);border-color:var(--vermelho);color:#fff}
+@media print{.versiculo.v2.clique .vbtn{display:none}.versiculo.v2.clique .cmp{display:block}}
+/* na capa da aula */
+.aula-capa .vk .cmp{margin-top:14px;font-size:14px;line-height:1.4;font-weight:400}
+.aula-capa .vk .cmp .ver{display:block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--vermelho);margin-bottom:4px}

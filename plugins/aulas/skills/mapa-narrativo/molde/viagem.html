@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>__TITULO__</title>
+<style>/*FONTES*/
+/*CSS*/</style>
+</head>
+<body>
+<div id="palco">
+  <svg id="mapa" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-label="Mapa da viagem">
+    <defs>
+      <radialGradient id="mar-luz" cx="50%" cy="45%" r="75%">
+        <stop offset="0" stop-color="#b9cbc4"/><stop offset="1" stop-color="#93ada8"/>
+      </radialGradient>
+      <filter id="tinta" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7"/>
+        <feDisplacementMap in="SourceGraphic" scale="1.2"/>
+      </filter>
+      <path id="costa" d="__LITORAL__"/>
+    </defs>
+    <rect id="mar" x="-2000" y="-2000" width="5200" height="4760" fill="url(#mar-luz)"/>
+    <use href="#costa" class="onda o3"/>
+    <use href="#costa" class="onda o2"/>
+    <use href="#costa" class="onda o1"/>
+    <use href="#costa" id="terra"/>
+    <g id="g-regioes"></g>
+    <g id="g-trilhas"></g>
+    <g id="g-rotas"></g>
+    <g id="g-cartas"></g>
+    <g id="g-lugares"></g>
+    <g id="g-viajante"></g>
+  </svg>
+  <div id="papel" aria-hidden="true"></div>
+  <div id="moldura" aria-hidden="true"></div>
+  <svg id="rosa" viewBox="-50 -50 100 100" aria-hidden="true">
+    <circle r="30" fill="none" stroke="#5b4630" stroke-width="1"/>
+    <circle r="24" fill="none" stroke="#5b4630" stroke-width=".6" stroke-dasharray="2 2"/>
+    <path d="M0,-46 L6,-6 L0,0 L-6,-6Z" fill="#7a1f12"/><path d="M0,-46 L-6,-6 L0,0Z" fill="#a83a26"/>
+    <path d="M0,46 L6,6 L0,0 L-6,6Z" fill="#5b4630"/><path d="M46,0 L6,6 L0,0 L6,-6Z" fill="#5b4630"/>
+    <path d="M-46,0 L-6,6 L0,0 L-6,-6Z" fill="#5b4630"/>
+    <text y="-49" text-anchor="middle" font-family="Cinzel" font-size="11" font-weight="700" fill="#5b4630">N</text>
+  </svg>
+
+  <header id="topo">
+    <div class="titulo-aula"></div>
+    <div class="trecho"></div>
+    <div class="contador"></div>
+  </header>
+
+  <article id="caixa" aria-live="polite">
+    <div class="rotulo"></div>
+    <h1 class="titulo"></h1>
+    <div class="texto"></div>
+    <div class="nota"></div>
+    <div class="fonte"></div>
+  </article>
+
+  <nav id="progresso" aria-label="Cenas"></nav>
+  <div id="ajuda">→ ou toque: avança · ← volta · A: automático · F: tela cheia · N: fontes</div>
+  <div id="selo">prévia</div>
+  <div id="credito">Litorais: Natural Earth 10m (domínio público)__CREDITO__</div>
+</div>
+<script>/*DADOS*/
+/*JS*/</script>
+</body>
+</html>

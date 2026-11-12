@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.bak
+.claude/settings.local.json
+
+# Pacote zip para instalar à mão (refeito por teste/empacotar.sh)
+/entrega/
+
+# Fotos das conferências do teste (refeitas a cada prova)
+/teste/saida/

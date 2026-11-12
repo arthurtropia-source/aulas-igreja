@@ -1,0 +1,16 @@
+{
+  "name": "aulas-igreja",
+  "owner": {
+    "name": "aulas-igreja"
+  },
+  "metadata": {
+    "description": "O método de produção de aulas dos cursos da igreja: as skills e o motor que monta a apresentação. Traz a Turma Especial como curso padrão."
+  },
+  "plugins": [
+    {
+      "name": "aulas",
+      "source": "./plugins/aulas",
+      "description": "Monta a aula a partir da palavra do professor (texto, gravação ou PowerPoint), põe uma aula pronta na paleta da Turma Especial e faz o mapa que conta a aula passo a passo."
+    }
+  ]
+}

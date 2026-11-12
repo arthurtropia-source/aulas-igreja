@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "aulas-igreja": {
+      "source": {
+        "source": "github",
+        "repo": "arthurtropia-source/aulas-igreja"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "aulas@aulas-igreja": true
+  }
+}

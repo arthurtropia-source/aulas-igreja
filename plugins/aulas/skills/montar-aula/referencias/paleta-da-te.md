@@ -18,7 +18,7 @@
    - escolha o bloco pelo que o slide faz (lista, cartões, par, versículo, linha do tempo); título em `título`, a palavra-chave em `==assim==`;
    - capa: `tipo: capa da aula` (ou `capa do curso` se for a abertura da matéria);
    - versículo citado por inteiro: siga `biblia.md` (a ARA de comparação, se o original não a traz, vai para as pendências, não se inventa);
-   - **imagem do original:** foto de pessoa só com o ok de quem responde pelo curso; imagem de terceiro só com a origem registrada no `registro.md`. Mapa: use os mapas-base da TE ou a skill `mapa-narrativo`, não a imagem colada.
+   - **imagem do original:** foto de pessoa só com o ok de quem responde pelo curso; imagem de terceiro só com a origem registrada no `registro.md`. Mapa: use os mapas-base da TE (mapa por passos), não a imagem colada; região sem mapa-base fica com a imagem do original e uma linha em `sugestoes/`.
 4. **Slide que não cabe** numa página: divida em duas e diga na tabela. Não diminua letra nem mexa no molde.
 5. **Gerar e conferir** (seção 5 da skill).
 6. **Mostrar a tabela de correspondência** junto da aula gerada:

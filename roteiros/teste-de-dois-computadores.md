@@ -29,7 +29,7 @@ Tempo: uns 40 minutos no Mac e 40 no segundo computador.
 ## Parte 2: o Cowork, no Mac
 3. No app do Claude, confira no canto a conta e o plano em que está. Anote na tabela.
 4. No Cowork: Customize (Personalizar) > Plugins > enviar arquivo > escolha `aulas-0.1.1.zip`.
-   **Tem de aparecer:** o plugin "aulas" na lista, com as skills `montar-aula` e `mapa-narrativo`.
+   **Tem de aparecer:** o plugin "aulas" na lista, com a skill `montar-aula` (até a 0.2.0, também a `mapa-narrativo`).
 5. Abra uma tarefa nova no Cowork e conecte a pasta `turma-especial` **do Drive** (a do "Meu Drive", não a de Documentos).
 6. Escreva:
    > Use a skill montar-aula. Gere de novo a Aula 1 de Epístolas Paulinas II (só o passo de gerar) e me diga o sha256 do aula-1.html.

@@ -14,7 +14,6 @@ set -u
 PLUGIN=$1; AULAMD=$2; REF=$3; CONFERIR=${4:-}
 PY=python3; command -v python3 >/dev/null 2>&1 || PY=python
 MOTOR="$PLUGIN/skills/montar-aula/scripts/motor"
-MAPA="$PLUGIN/skills/mapa-narrativo"
 TMP=$(mktemp -d)
 falhas=0
 echo "plugin:      $PLUGIN (versão $(sed -n 's/.*"version": *"\(.*\)".*/\1/p' "$PLUGIN/.claude-plugin/plugin.json"))"
@@ -32,25 +31,15 @@ else
   echo "1. aula:     DIFERENTE da referência"; falhas=1
 fi
 
-# 2. o exemplo da skill mapa-narrativo
-cp -R "$MAPA/exemplo" "$TMP/exemplo"
-rm -f "$TMP/exemplo/mapa.html"
-$PY "$MAPA/scripts/gerar_mapa.py" "$TMP/exemplo" >/dev/null || falhas=1
-if cmp -s "$TMP/exemplo/mapa.html" "$MAPA/exemplo/mapa.html"; then
-  echo "2. mapa:     exemplo IDÊNTICO ao que vem na skill"
-else
-  echo "2. mapa:     exemplo DIFERENTE do que vem na skill"; falhas=1
-fi
-
-# 3. as conferências do motor (pede Playwright com Chromium)
+# 2. as conferências do motor (pede Playwright com Chromium)
 if [ "$CONFERIR" = "--conferir" ]; then
   if $PY "$MOTOR/conferir.py" "$TMP/materia/$NOME/$NOME.html"; then
-    echo "3. conferir: sem falha"
+    echo "2. conferir: sem falha"
   else
-    echo "3. conferir: FALHOU (ou o Playwright não está instalado)"; falhas=1
+    echo "2. conferir: FALHOU (ou o Playwright não está instalado)"; falhas=1
   fi
 else
-  echo "3. conferir: não rodado (acrescente --conferir)"
+  echo "2. conferir: não rodado (acrescente --conferir)"
 fi
 
 [ $falhas -eq 0 ] && echo "RESULTADO: PASSOU" || echo "RESULTADO: FALHOU"

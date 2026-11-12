@@ -23,7 +23,7 @@ O que o material do professor já responde, mostre a resposta e peça só a conf
 ## Elementos visuais conhecidos
 | Elemento | Quando serve | Como se faz |
 |---|---|---|
-| Mapa por passos | Contar uma história que se move no espaço. **Mostra só o que a aula precisa contar**, não tudo o que aconteceu naquele lugar | Página `tipo: mapa` do `aula.md`, ou a skill `mapa-narrativo` para o mapa que conta a aula inteira |
+| Mapa por passos | Contar uma história que se move no espaço. **Mostra só o que a aula precisa contar**, não tudo o que aconteceu naquele lugar | Página `tipo: mapa` do `aula.md`, sobre um dos mapas-base que já existem |
 | Quadro de comparação | Comparar ideias, períodos, personagens | Bloco `par` ou `tabela` |
 | Linha do tempo | Ordem dos acontecimentos ou das cartas | Bloco `linha do tempo` ou `ordem` |
 

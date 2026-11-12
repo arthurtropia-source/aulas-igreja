@@ -19,11 +19,8 @@ Regra: nada entra no plugin sem a origem e a data marcadas aqui. Código e ativo
 
 - **Pontos ainda presos à Turma Especial** (não atrapalham a TE; saem antes do segundo curso que não use a identidade dela): a constante `VERMELHO = '#DD3338'` em `mapas.py` e o nome padrão `'Turma Especial'` no conversor `ferramentas/html_para_aula.py` (só usado para converter os decks antigos da TE).
 
-## Skill `mapa-narrativo` (`skills/mapa-narrativo/`)
-- **Origem:** `igreja/aulas/.claude/skills/mapa-narrativo/`, v1 empacotada em 11/11/2026 (commit `95f773b`).
-- **Copiada em:** 11/11/2026, **sem alteração** (fora os mapas parados gerados pelo exemplo, `exemplo/svg/`, que se refazem com `--svg`).
-- **Ativos de terceiro e licenças:** `skills/mapa-narrativo/LICENCAS.md` (litoral Natural Earth, domínio público; fontes Cinzel e Crimson Text, SIL OFL 1.1, com os textos em `licencas/`).
-- O `LEIA-ME.md` dela ainda ensina a instalar a skill avulsa (copiando a pasta); no plugin isso não é preciso. Fica como está até a mudança da fonte da verdade.
+## Skill `mapa-narrativo`: retirada na 0.2.1
+Era a "viagem pelo mapa" (a aula inteira dentro de um mapa), empacotada em 11/11/2026. Saiu do plugin em 12/11/2026 por decisão de quem responde pelo plugin: o plugin leva só o mapa por passos dentro do slide (o motor da `montar-aula`).
 
 ## Skill `montar-aula` (`skills/montar-aula/`)
 - **Origem:** escrita em 11/11/2026 a partir de `igreja/aulas/contexto/fluxo-de-producao.md` (o caminho que funcionou nas 8 aulas), de `igreja/aulas/propostas/2026-10-20-licoes-do-historico.md` (regras R1 a R10, T1 a T4 e a seção 5) e do `AGENTS.md` das aulas. Texto do próprio projeto.

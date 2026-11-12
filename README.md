@@ -8,7 +8,6 @@ O método de produção das aulas dos cursos da igreja, como plugin do Claude. T
 | Skill | O que faz |
 |---|---|
 | `montar-aula` | Na primeira vez, monta a pasta do curso. Depois: a aula a partir do material do professor (briefing, esqueleto aprovado, montagem, conferências, validador e registro), ou uma aula pronta posta na paleta da Turma Especial. Leva o motor que gera a apresentação |
-| `mapa-narrativo` | O mapa que conta a aula passo a passo: um HTML que abre sem internet |
 
 Pedidos que funcionam: "põe esse texto-base em slides", "põe esta aula na paleta da TE", "faz o mapa da aula", "corrige a página 7".
 
@@ -32,7 +31,7 @@ O plugin se atualiza sozinho quando a sincronização do catálogo está ligada 
 - **Nunca aqui:** nome de professor, de aluno ou de membro; foto de pessoa; texto de professor; aula pronta.
 
 ## Licenças
-- As fontes (Big Shoulders Display, Oswald, Montserrat): SIL Open Font License 1.1, com os textos em `plugins/aulas/skills/montar-aula/cursos/turma-especial/identidade/licencas/` e `plugins/aulas/skills/mapa-narrativo/licencas/`.
+- As fontes (Big Shoulders Display, Oswald, Montserrat): SIL Open Font License 1.1, com os textos em `plugins/aulas/skills/montar-aula/cursos/turma-especial/identidade/licencas/`.
 - O litoral dos mapas: Natural Earth, domínio público.
 - O logo e o selo da Turma Especial são da igreja: servem às aulas e peças da própria Turma Especial.
 - O código e os textos do método: licença do repositório **a definir**.

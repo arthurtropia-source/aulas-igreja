@@ -24,7 +24,6 @@ Antes de cada commit, confira: o repositório vai ser público.
 | `.claude-plugin/marketplace.json` | O catálogo (um plugin só) |
 | `plugins/aulas/` | O plugin: `.claude-plugin/plugin.json` (a versão), `skills/` e `ORIGEM.md` (de onde veio cada peça) |
 | `plugins/aulas/skills/montar-aula/` | A skill que conduz a aula; o motor fica em `scripts/motor/`, a Turma Especial em `cursos/turma-especial/` |
-| `plugins/aulas/skills/mapa-narrativo/` | A skill do mapa por passos |
 | `teste/` | A prova de cada versão (`provar.sh`) e os registros datados |
 | `roteiros/` | Roteiros para pessoas (teste de dois computadores, instalação) |
 | `CHANGELOG.md` | O que mudou em cada versão |
@@ -36,7 +35,7 @@ Antes de cada commit, confira: o repositório vai ser público.
 - **Versão:** toda mudança que chega a quem usa sobe o campo `version` do `plugin.json` e ganha uma linha no `CHANGELOG.md`. Com a versão fixa, ninguém recebe mudança.
 - **Correção vira regra na skill**, não na memória de uma conta. Preferência de um curso ou de um professor não sobe para cá: fica na memória da pasta do curso.
 - **Nenhuma ação externa sem o ok de quem responde pelo plugin:** publicar o repositório, enviar o pacote a alguém, instalar no computador de outra pessoa.
-- **Fonte da verdade até o piloto:** o motor e a skill `mapa-narrativo` ainda são desenvolvidos na pasta de aulas de origem (`igreja/aulas/`). Aqui há **cópias** datadas. Mudança de método feita lá é trazida para cá, e vice-versa, até a mudança da fonte da verdade (depois do piloto).
+- **Fonte da verdade até o piloto:** o motor ainda é desenvolvido na pasta de aulas de origem (`igreja/aulas/`). Aqui há **cópias** datadas. Mudança de método feita lá é trazida para cá, e vice-versa, até a mudança da fonte da verdade (depois do piloto).
 - Idioma: português do Brasil. Com professores e responsáveis: simples, sem termo técnico.
 
 ## Sessão

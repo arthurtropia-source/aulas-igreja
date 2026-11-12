@@ -2,6 +2,7 @@
 
 ## 0.2.1 (12/11/2026): a pasta do curso chega pronta
 - **`montar-aula`:** não monta mais a pasta do curso. Se a tarefa não está na pasta do curso, pede para abrir a pasta Turma Especial recebida (+ > Adicionar pasta) e para. Saíram `referencias/primeira-utilizacao.md` e `modelo-da-pasta/`; o aviso de atualização automática ficou em `referencias/aviso-de-atualizacao.md`, com os nomes reais dos menus do app.
+- **Sai a skill `mapa-narrativo`** (a "viagem pelo mapa", a aula inteira dentro de um mapa). Fica só o mapa por passos dentro do slide, sobre os mapas-base. Mapa de região nova: a `montar-aula` diz que ainda não se faz e registra em `sugestoes/`. A prova deixa de gerar o exemplo do mapa.
 - A pasta pronta é entregue por quem cuida do curso, fora deste repositório. Motor sem mudança (só um comentário).
 
 ## 0.2.0 (12/11/2026): o plugin se basta sozinho, com a Turma Especial como curso padrão

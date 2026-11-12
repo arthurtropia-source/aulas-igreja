@@ -1,6 +1,6 @@
 # A pasta do curso
 
-> Referência da skill `montar-aula`. O plugin leva o método e a identidade da Turma Especial (o curso padrão); a pasta do curso leva tudo o que é do curso. Uma pasta por curso, numa conta da igreja.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). O plugin leva o método e a identidade da Turma Especial (o curso padrão); a pasta do curso leva tudo o que é do curso. Uma pasta por curso, numa conta da igreja.
 >
 > **A pasta chega pronta** a quem usa, entregue por quem cuida do curso: `AGENTS.md`, `CLAUDE.md`, `memoria.md`, `mapa-das-aulas.md`, `passagem.md`, `contexto/curso.md`, `sugestoes/`, `materias/` e `.claude/settings.json`. A skill não monta pasta; o resto abaixo nasce quando faz falta.
 

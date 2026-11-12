@@ -1,6 +1,6 @@
 # Didática: o que responder antes de produzir uma aula
 
-> Referência da skill `montar-aula`. Origem: as perguntas usadas nas aulas da Turma Especial (20/10/2026). Se a pasta do curso tiver `contexto/didatica.md`, ele vale por cima desta.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). Origem: as perguntas usadas nas aulas da Turma Especial (20/10/2026). Se a pasta do curso tiver `contexto/didatica.md`, ele vale por cima desta.
 
 ## O princípio
 O visual serve à compreensão. Antes de escolher qualquer formato, entenda **a natureza do que se quer passar** e **como o aluno deve compreender**. O elemento visual nasce da natureza da explicação (um deslocamento geográfico pede um mapa por passos; uma comparação pede um quadro de comparação), não do gosto.

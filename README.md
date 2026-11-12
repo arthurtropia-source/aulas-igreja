@@ -7,9 +7,14 @@ O método de produção das aulas dos cursos da igreja, como plugin do Claude. T
 ## O que vem
 | Skill | O que faz |
 |---|---|
-| `montar-aula` | Na primeira vez, monta a pasta do curso. Depois: a aula a partir do material do professor (briefing, esqueleto aprovado, montagem, conferências, validador e registro), ou uma aula pronta posta na paleta da Turma Especial. Leva o motor que gera a apresentação |
+| `aula` | A porta de entrada: confere a pasta e o que chegou e manda para a skill certa. Guarda o motor, a identidade da TE e as regras |
+| `converter-aula` | Aula pronta (PowerPoint, PDF de slides, HTML antigo) para o formato e o design da TE, com o texto mantido |
+| `incluir-mapa` | Mapa por passos dentro do slide, sobre os mapas-base |
+| `corrigir-aula` | Correções pedidas numa aula que já está no formato; deck da matéria; PDF |
+| `aula-do-zero` | Aula nova a partir do texto-base ou da gravação: briefing, esqueleto, aula, validador, registro |
+| `conferir-aula` | A conferência das páginas e o validador de entendimento |
 
-Pedidos que funcionam: "põe esse texto-base em slides", "põe esta aula na paleta da TE", "faz o mapa da aula", "corrige a página 7".
+Pedidos que funcionam: "põe esse texto-base em slides", "põe esta aula no design da TE", "transforma esse PDF em HTML", "inclui um mapa na aula 3", "corrige a página 7", "confere a aula".
 
 ## Instalar
 **No Cowork (app do Claude):** no campo de mensagem, **+ > Adicionar plugins**; depois **+ Adicionar > Adicionar marketplace**, cole `arthurtropia-source/aulas-igreja` no campo URL, deixe **Sincronizar automaticamente** ligado, clique em **Sincronizar** e, no plugin **Aulas**, em **Adicionar**. Para trabalhar, **+ > Adicionar pasta** e escolha a pasta do curso, que vem pronta de quem cuida do curso (o plugin não monta pasta). Passo a passo em `roteiros/instalar.md`.
@@ -31,7 +36,7 @@ O plugin se atualiza sozinho quando a sincronização do catálogo está ligada 
 - **Nunca aqui:** nome de professor, de aluno ou de membro; foto de pessoa; texto de professor; aula pronta.
 
 ## Licenças
-- As fontes (Big Shoulders Display, Oswald, Montserrat): SIL Open Font License 1.1, com os textos em `plugins/aulas/skills/montar-aula/cursos/turma-especial/identidade/licencas/`.
+- As fontes (Big Shoulders Display, Oswald, Montserrat): SIL Open Font License 1.1, com os textos em `plugins/aulas/skills/aula/cursos/turma-especial/identidade/licencas/`.
 - O litoral dos mapas: Natural Earth, domínio público.
 - O logo e o selo da Turma Especial são da igreja: servem às aulas e peças da própria Turma Especial.
 - O código e os textos do método: licença do repositório **a definir**.

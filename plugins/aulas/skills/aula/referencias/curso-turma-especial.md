@@ -1,6 +1,6 @@
 # O curso padrão: Turma Especial
 
-> Referência da skill `montar-aula`. A Turma Especial (TE) é o curso que vem no plugin: a identidade dela está em `cursos/turma-especial/` (dentro desta skill) e vale sempre que a pasta do curso não tiver a própria `identidade/`. Origem: a pasta de aulas da TE (out/2026) e o design system oficial do folder TE 2027.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). A Turma Especial (TE) é o curso que vem no plugin: a identidade dela está em `cursos/turma-especial/` (dentro desta skill) e vale sempre que a pasta do curso não tiver a própria `identidade/`. Origem: a pasta de aulas da TE (out/2026) e o design system oficial do folder TE 2027.
 
 ## O curso
 - A escola de discipulado da igreja. **Público:** jovens. **Formato:** integral, de um a dois anos, como um seminário.

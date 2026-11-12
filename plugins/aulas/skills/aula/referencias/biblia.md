@@ -1,6 +1,6 @@
 # Versões da Bíblia na tela
 
-> Referência da skill `montar-aula`. Regra da Turma Especial (20/10/2026), que vale como padrão. Se a pasta do curso tiver `contexto/biblia.md`, ele vale por cima desta.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). Regra da Turma Especial (20/10/2026), que vale como padrão. Se a pasta do curso tiver `contexto/biblia.md`, ele vale por cima desta.
 
 | Papel | Versão | Quando |
 |---|---|---|

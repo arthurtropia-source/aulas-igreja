@@ -1,6 +1,6 @@
 # Aviso de atualização automática
 
-> Referência da skill `montar-aula` (0.2.1). A pasta do curso chega pronta a quem usa: a skill não monta pasta. Este aviso é dado uma vez por pasta.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). A pasta do curso chega pronta a quem usa: a skill não monta pasta. Este aviso é dado uma vez por pasta.
 
 ## O aviso (uma vez)
 Se o `passagem.md` da pasta do curso ainda não registra o aviso, diga, antes de seguir com o pedido:

@@ -1,6 +1,6 @@
 # Regras de fonte: só a palavra do professor
 
-> Referência da skill `montar-aula`. Vale para todo curso. Origem: as regras das aulas da Turma Especial (out/2026), aplicadas nas 8 aulas de Epístolas Paulinas II.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). Vale para todo curso. Origem: as regras das aulas da Turma Especial (out/2026), aplicadas nas 8 aulas de Epístolas Paulinas II.
 
 ## A regra
 **Os slides usam só o que o professor disse ou escreveu.** A IA organiza, seleciona e ilustra; não acrescenta fala, interpretação, doutrina, exemplo nem citação. Na dúvida, fica de fora e vira pergunta para o professor.

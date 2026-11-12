@@ -13,7 +13,7 @@
 set -u
 PLUGIN=$1; AULAMD=$2; REF=$3; CONFERIR=${4:-}
 PY=python3; command -v python3 >/dev/null 2>&1 || PY=python
-MOTOR="$PLUGIN/skills/montar-aula/scripts/motor"
+MOTOR="$PLUGIN/skills/aula/scripts/motor"
 TMP=$(mktemp -d)
 falhas=0
 echo "plugin:      $PLUGIN (versão $(sed -n 's/.*"version": *"\(.*\)".*/\1/p' "$PLUGIN/.claude-plugin/plugin.json"))"

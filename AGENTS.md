@@ -23,14 +23,15 @@ Antes de cada commit, confira: o repositório vai ser público.
 |---|---|
 | `.claude-plugin/marketplace.json` | O catálogo (um plugin só) |
 | `plugins/aulas/` | O plugin: `.claude-plugin/plugin.json` (a versão), `skills/` e `ORIGEM.md` (de onde veio cada peça) |
-| `plugins/aulas/skills/montar-aula/` | A skill que conduz a aula; o motor fica em `scripts/motor/`, a Turma Especial em `cursos/turma-especial/` |
+| `plugins/aulas/skills/aula/` | A porta de entrada (o corte) e a pasta comum: o motor em `scripts/motor/`, a Turma Especial em `cursos/turma-especial/`, as referências em `referencias/` |
+| `plugins/aulas/skills/<tarefa>/` | As 5 skills de tarefa: `converter-aula`, `incluir-mapa`, `corrigir-aula`, `aula-do-zero`, `conferir-aula`. Leem a pasta comum em `../aula/` |
 | `teste/` | A prova de cada versão (`provar.sh`) e os registros datados |
 | `roteiros/` | Roteiros para pessoas (teste de dois computadores, instalação) |
 | `CHANGELOG.md` | O que mudou em cada versão |
 
 ## Regras
 - **Skill usa `scripts/`, nunca `bin/`:** `bin/` não instala no Cowork nem no chat.
-- **Uma skill só para montar a aula.** Os passos ficam dentro dela; só se divide pelo teste do OS (regra de 04/11/2026).
+- **Porta de entrada e skills por tarefa (0.3.0, decisão de 12/11/2026):** toda tarefa entra pela skill `aula`, que decide a rota por um corte fixo conferido nos arquivos (se isto, então aquilo; no máximo 3 rotas por pergunta; o resto é exceção). Cada skill de tarefa começa conferindo a própria condição de entrada e devolve para a porta se ela não vale. Skill nova só para tarefa que é pedida sozinha (teste do OS de 04/11/2026). O que é comum (motor, identidade, regras) mora numa pasta só, na skill `aula`.
 - **Prova antes de versão:** nenhuma versão sobe sem `teste/provar.sh` passar (a Aula 1 de referência, gerada só a partir do `aula.md`, sem pasta do curso, tem de sair idêntica, byte a byte) e sem o registro gravado em `teste/`. A aula de referência não mora aqui (é texto de professor): fica com quem mantém o plugin.
 - **Versão:** toda mudança que chega a quem usa sobe o campo `version` do `plugin.json` e ganha uma linha no `CHANGELOG.md`. Com a versão fixa, ninguém recebe mudança.
 - **Correção vira regra na skill**, não na memória de uma conta. Preferência de um curso ou de um professor não sobe para cá: fica na memória da pasta do curso.

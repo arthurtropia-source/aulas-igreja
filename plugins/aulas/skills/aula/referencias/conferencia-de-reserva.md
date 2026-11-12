@@ -1,6 +1,6 @@
 # Conferência de reserva (quando o Playwright não roda)
 
-> Referência da skill `montar-aula` (0.2.0). A conferência automática (`conferir.py`) abre a aula num navegador sem tela (Playwright com o Chromium) e mede cada página. Onde isso não roda, vale esta reserva. Ela é mais fraca: diga no `registro.md` da aula que a conferência foi a de reserva.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). A conferência automática (`conferir.py`) abre a aula num navegador sem tela (Playwright com o Chromium) e mede cada página. Onde isso não roda, vale esta reserva. Ela é mais fraca: diga no `registro.md` da aula que a conferência foi a de reserva.
 
 ## 1. Tentar a automática primeiro
 Pergunte antes de instalar. Com o ok:
@@ -8,7 +8,7 @@ Pergunte antes de instalar. Com o ok:
 python3 -m pip install playwright
 python3 -m playwright install chromium
 ```
-Se instalar e rodar, use a conferência normal (seção 5 da skill) e pare aqui.
+Se instalar e rodar, use a conferência normal (skill `conferir-aula`) e pare aqui.
 
 ## 2. A reserva
 1. **Gerar** com `gerar.py` (só precisa do Python) e ver a linha `ok: ... (N páginas)`.

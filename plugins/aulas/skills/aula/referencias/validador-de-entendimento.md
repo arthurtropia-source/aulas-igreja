@@ -1,6 +1,6 @@
 # Validador de entendimento
 
-> Referência da skill `montar-aula`. Origem: o agente usado nas 8 aulas de Epístolas Paulinas II (out/2026), onde pegou falha real em 6 das 8. **Este roteiro foi reescrito a partir da descrição registrada em 20/10/2026;** o texto original do pedido está no histórico bruto daquela sessão e ainda não foi recuperado. Calibrar na primeira aula real.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). Origem: o agente usado nas 8 aulas de Epístolas Paulinas II (out/2026), onde pegou falha real em 6 das 8. **Este roteiro foi reescrito a partir da descrição registrada em 20/10/2026;** o texto original do pedido está no histórico bruto daquela sessão e ainda não foi recuperado. Calibrar na primeira aula real.
 
 ## O que é
 Um agente **independente**, que não viu a conversa da montagem. Não é revisor de texto nem de design: é um aluno que nunca viu a matéria, conferindo se o entendimento é alcançado.

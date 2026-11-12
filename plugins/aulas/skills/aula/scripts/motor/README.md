@@ -1,6 +1,6 @@
 # Motor
 
-O código que monta o HTML das aulas a partir do `aula.md`. É chamado pela skill `montar-aula`; os caminhos abaixo são a partir desta pasta. No Windows, `python` no lugar de `python3`.
+O código que monta o HTML das aulas a partir do `aula.md`. É chamado pelas skills de aula (a pasta comum fica na skill `aula`); os caminhos abaixo são a partir desta pasta. No Windows, `python` no lugar de `python3`.
 
 | Para | Comando | Sai em |
 |---|---|---|

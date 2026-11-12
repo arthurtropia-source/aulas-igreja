@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 (12/11/2026): uma porta de entrada e uma skill por tarefa
+- **A `montar-aula` foi dividida** (decisão de 12/11/2026, com o viés determinístico: se isto, então aquilo). A porta de entrada **`aula`** confere a pasta e o que chegou e manda para a skill certa, sem o modelo escolher pela probabilidade: aula já no formato (lista fechada: incluir mapa, corrigir, conferir), aula pronta de fora (`converter-aula`) ou material do professor (`aula-do-zero`).
+- **Cinco skills de tarefa**, cada uma com a condição de entrada, os passos e a linha de chegada: `converter-aula` (a antiga rota D, texto literal, design da TE), `incluir-mapa` (mapa por passos sobre os mapas-base; região nova: "ainda não"), `corrigir-aula`, `aula-do-zero` (texto-base ou gravação; a antiga rota B) e `conferir-aula` (conferência e validador).
+- **PowerPoint ou PDF de slides é sempre aula pronta** (`converter-aula`); refazer do zero só quando pedido.
+- O que é comum (motor, identidade da TE, mapas-base, regras) mora na skill `aula`; as outras leem `../aula/`. Motor sem mudança. Nova referência comum: `registro.md`. Saiu `paleta-da-te.md` (virou a `converter-aula`).
+
 ## 0.2.1 (12/11/2026): a pasta do curso chega pronta
 - **`montar-aula`:** não monta mais a pasta do curso. Se a tarefa não está na pasta do curso, pede para abrir a pasta Turma Especial recebida (+ > Adicionar pasta) e para. Saíram `referencias/primeira-utilizacao.md` e `modelo-da-pasta/`; o aviso de atualização automática ficou em `referencias/aviso-de-atualizacao.md`, com os nomes reais dos menus do app.
 - **Sai a skill `mapa-narrativo`** (a "viagem pelo mapa", a aula inteira dentro de um mapa). Fica só o mapa por passos dentro do slide, sobre os mapas-base. Mapa de região nova: a `montar-aula` diz que ainda não se faz e registra em `sugestoes/`. A prova deixa de gerar o exemplo do mapa.

@@ -1,6 +1,6 @@
 # Esqueleto e corte
 
-> Referência da skill `montar-aula`. Origem: o esqueleto das 8 aulas de Epístolas Paulinas II (out/2026) e as lições do histórico (20/10/2026). Vale para qualquer curso; o que for de um curso só fica na pasta dele.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). Origem: o esqueleto das 8 aulas de Epístolas Paulinas II (out/2026) e as lições do histórico (20/10/2026). Vale para qualquer curso; o que for de um curso só fica na pasta dele.
 
 ## O princípio de corte
 **O slide mostra o que a fala não consegue mostrar:** a ordem da aula, as listas que o próprio autor enumera (três verbos, quatro motivos), os pares contrastados, os mapas e o versículo-chave na tela.

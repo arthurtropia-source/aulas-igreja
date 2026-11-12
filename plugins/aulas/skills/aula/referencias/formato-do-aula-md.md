@@ -1,6 +1,6 @@
 # O formato do `aula.md`
 
-> Referência da skill `montar-aula`. Origem: o README do motor das aulas da Turma Especial (20/10/2026), trazido em 11/11/2026; exemplos trocados por neutros em 12/11/2026. É o arquivo onde o conteúdo da aula fica, separado da apresentação; o motor (`scripts/motor/gerar.py`) gera o HTML a partir dele.
+> Referência comum das skills de aula (mora na skill `aula`; 0.3.0). Origem: o README do motor das aulas da Turma Especial (20/10/2026), trazido em 11/11/2026; exemplos trocados por neutros em 12/11/2026. É o arquivo onde o conteúdo da aula fica, separado da apresentação; o motor (`scripts/motor/gerar.py`) gera o HTML a partir dele.
 
 ## Por que este formato
 **Por que markdown estruturado, e não JSON:** o texto das aulas é cheio de aspas, e no JSON cada aspa precisa de escape (`\"`). Uma aspa esquecida quebra o arquivo inteiro. No `aula.md`, cada página é um título, cada campo é `nome: valor` numa linha e cada bloco tem nome em português. Ele se lê em qualquer editor ou visualizador de markdown e se edita sem saber programar. O motor lê sem nenhuma biblioteca. O erro aponta a linha (`ERRO no aula.md, linha 42: ...`).

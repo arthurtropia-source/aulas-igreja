@@ -23,7 +23,7 @@ import formato  # noqa: E402
 import mapas  # noqa: E402
 
 # Os cursos que vêm dentro do plugin (0.2.0): a identidade e os mapas-base de cada um.
-# Valem quando a pasta do curso não tem a própria identidade/ (ex.: a primeira utilização).
+# Valem quando a pasta do curso não tem a própria identidade/ (ex.: a Turma Especial, cuja identidade vem no plugin).
 CURSOS_DO_PLUGIN = os.path.join(os.path.dirname(os.path.dirname(AQUI)), 'cursos')
 CURSO_PADRAO = 'turma-especial'
 

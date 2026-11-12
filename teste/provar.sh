@@ -1,6 +1,6 @@
 #!/bin/sh
 # Prova de uma versão do plugin: a aula de referência, gerada pelo plugin SEM pasta do curso
-# (só o aula.md numa pasta vazia, como na primeira utilização), tem de sair idêntica (byte a byte)
+# (só o aula.md numa pasta vazia), tem de sair idêntica (byte a byte)
 # ao HTML de referência. Desde a 0.2.0 a identidade e os mapas-base da Turma Especial vêm do plugin.
 #
 # Uso:

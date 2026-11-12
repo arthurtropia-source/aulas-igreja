@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 (12/11/2026): a pasta do curso chega pronta
+- **`montar-aula`:** não monta mais a pasta do curso. Se a tarefa não está na pasta do curso, pede para abrir a pasta Turma Especial recebida (+ > Adicionar pasta) e para. Saíram `referencias/primeira-utilizacao.md` e `modelo-da-pasta/`; o aviso de atualização automática ficou em `referencias/aviso-de-atualizacao.md`, com os nomes reais dos menus do app.
+- A pasta pronta é entregue por quem cuida do curso, fora deste repositório. Motor sem mudança (só um comentário).
+
 ## 0.2.0 (12/11/2026): o plugin se basta sozinho, com a Turma Especial como curso padrão
 - **Identidade da Turma Especial dentro do plugin** (`montar-aula/cursos/turma-especial/`): logo, cores, as 3 fontes SIL OFL com as licenças, o design system oficial sem as fotos de turma, e os 3 mapas-base de Epístolas Paulinas II. Decisão de 12/11/2026, que muda a regra "público, só método".
 - **Motor:** sem `identidade/` na pasta do curso, usa a do plugin (o curso do campo `curso`, padrão `turma-especial`); os mapas-base do plugin entram por último na busca. Pasta do curso com identidade própria continua valendo por cima.

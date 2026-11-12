@@ -13,7 +13,7 @@ O método de produção das aulas dos cursos da igreja, como plugin do Claude. T
 Pedidos que funcionam: "põe esse texto-base em slides", "põe esta aula na paleta da TE", "faz o mapa da aula", "corrige a página 7".
 
 ## Instalar
-**No Cowork (app do Claude):** no campo de mensagem, **+ > Adicionar plugins**; depois **+ Adicionar > Adicionar marketplace**, cole `arthurtropia-source/aulas-igreja` no campo URL, deixe **Sincronizar automaticamente** ligado, clique em **Sincronizar** e, no plugin **Aulas**, em **Adicionar**. Para trabalhar, **+ > Adicionar pasta** e escolha a pasta do curso. Passo a passo em `roteiros/instalar.md`.
+**No Cowork (app do Claude):** no campo de mensagem, **+ > Adicionar plugins**; depois **+ Adicionar > Adicionar marketplace**, cole `arthurtropia-source/aulas-igreja` no campo URL, deixe **Sincronizar automaticamente** ligado, clique em **Sincronizar** e, no plugin **Aulas**, em **Adicionar**. Para trabalhar, **+ > Adicionar pasta** e escolha a pasta do curso, que vem pronta de quem cuida do curso (o plugin não monta pasta). Passo a passo em `roteiros/instalar.md`.
 
 **Na aba Code (app do Claude) ou no terminal:** dentro da pasta do curso,
 ```
@@ -24,7 +24,7 @@ claude plugin install aulas@aulas-igreja
 **O que é preciso no computador:** Python 3.9 ou mais novo, para gerar as aulas (nenhuma biblioteca). Para as conferências automáticas e o PDF: Playwright com o Chromium (`python3 -m pip install playwright` e `python3 -m playwright install chromium`); sem eles, a skill usa a conferência de reserva.
 
 ## Atualização
-O plugin se atualiza sozinho quando a sincronização do catálogo está ligada (Cowork) ou pela pasta do curso (`.claude/settings.json`, aba Code). A skill avisa na primeira utilização e diz como desligar.
+O plugin se atualiza sozinho quando a sincronização do catálogo está ligada (Cowork) ou pela pasta do curso (`.claude/settings.json`, aba Code). A skill avisa uma vez por pasta e diz como desligar.
 
 ## O que fica onde
 - **Aqui (público):** o método e a identidade da Turma Especial.

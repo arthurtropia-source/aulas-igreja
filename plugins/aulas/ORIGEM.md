@@ -38,7 +38,8 @@ Decisão de 12/11/2026 (a identidade da TE vai para o plugin público, para que 
 | `.../identidade/design-system/` | O design system oficial (folder TE 2027), sem as 3 fotos de turma | `LEIA-ME.md` reescrito para o plugin |
 | `skills/montar-aula/cursos/turma-especial/mapas/` | Os três mapas-base de Epístolas Paulinas II (litoral Natural Earth, domínio público) | Levam o vermelho da TE |
 | `referencias/regras-de-fonte.md`, `didatica.md`, `biblia.md`, `curso-turma-especial.md` | O `AGENTS.md` e o `contexto/` das aulas da TE | Sem nome de professor nem de pessoa |
-| `referencias/primeira-utilizacao.md`, `paleta-da-te.md`, `conferencia-de-reserva.md`, `modelo-da-pasta/` | Escritos em 12/11/2026 | |
+| `paleta-da-te.md`, `conferencia-de-reserva.md` | Escritos em 12/11/2026 | |
+| `referencias/aviso-de-atualizacao.md` | Escrito em 12/11/2026 (0.2.1), a partir da antiga primeira utilização | |
 | `scripts/motor/gerar.py` e `mapas.py` | Mudança do plugin | Sem `identidade/` na pasta do curso, o motor usa `cursos/<curso>/` da skill (padrão: `turma-especial`); os mapas-base de lá entram por último na busca |
 
 ## O que o plugin não leva (e onde fica)

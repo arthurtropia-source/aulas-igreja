@@ -1,6 +1,6 @@
 # Plugin das aulas: AGENTS.md
 
-Área da frente `igreja/`. Aqui mora o **método** de produção de aulas, empacotado como plugin do Claude: as skills, o motor que monta a apresentação e, desde a 0.2.0, a identidade da **Turma Especial**, o curso padrão. Quem faz aula instala o plugin e trabalha numa **pasta do curso** (a skill monta o mínimo dela na primeira utilização); a melhoria feita aqui chega a todos por versão.
+Área da frente `igreja/`. Aqui mora o **método** de produção de aulas, empacotado como plugin do Claude: as skills, o motor que monta a apresentação e, desde a 0.2.0, a identidade da **Turma Especial**, o curso padrão. Quem faz aula instala o plugin e trabalha numa **pasta do curso**, que recebe pronta de quem cuida do curso (a skill não monta pasta, desde a 0.2.1); a melhoria feita aqui chega a todos por versão.
 
 > Status: **em uso** desde 12/11/2026 (versão 0.2.0), **publicado** em `github.com/arthurtropia-source/aulas-igreja`, repositório público. Vai ser transferido para a conta da igreja. Nome do marketplace (`aulas-igreja`) e do plugin (`aulas`) provisórios.
 > Origem: proposta aprovada em 11/11/2026 (no sistema de quem mantém o plugin). Esta área se basta sozinha: o que ela precisa daquela proposta está resumido aqui e no `README.md`.
@@ -23,7 +23,7 @@ Antes de cada commit, confira: o repositório vai ser público.
 |---|---|
 | `.claude-plugin/marketplace.json` | O catálogo (um plugin só) |
 | `plugins/aulas/` | O plugin: `.claude-plugin/plugin.json` (a versão), `skills/` e `ORIGEM.md` (de onde veio cada peça) |
-| `plugins/aulas/skills/montar-aula/` | A skill que conduz a aula; o motor fica em `scripts/motor/`, a Turma Especial em `cursos/turma-especial/` e a pasta mínima do curso em `modelo-da-pasta/` |
+| `plugins/aulas/skills/montar-aula/` | A skill que conduz a aula; o motor fica em `scripts/motor/`, a Turma Especial em `cursos/turma-especial/` |
 | `plugins/aulas/skills/mapa-narrativo/` | A skill do mapa por passos |
 | `teste/` | A prova de cada versão (`provar.sh`) e os registros datados |
 | `roteiros/` | Roteiros para pessoas (teste de dois computadores, instalação) |

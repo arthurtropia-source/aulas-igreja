@@ -1,6 +1,6 @@
 {
   "name": "aulas",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Método de produção de aulas da igreja, com a Turma Especial como curso padrão: a skill montar-aula (com o motor que gera a apresentação em HTML e a identidade da TE) e a skill mapa-narrativo. Professores, fontes e aulas ficam na pasta do curso.",
   "author": {
     "name": "aulas-igreja"

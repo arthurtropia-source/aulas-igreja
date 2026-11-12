@@ -1,11 +1,11 @@
 ---
 name: montar-aula
-description: Monta a aula de um curso da igreja (por padrão, a Turma Especial, cuja identidade vem no plugin) a partir da palavra do professor (texto por extenso, gravação transcrita ou PowerPoint), numa apresentação HTML que o professor usa na aula e o aluno recebe para estudar; e põe na paleta da Turma Especial uma aula que já existe. Conduz a primeira utilização (monta a pasta do curso), o briefing, o esqueleto aprovado, a montagem pelo motor, as conferências, o validador de entendimento e o registro. Use quando pedirem "monta a aula", "põe esse texto-base em slides", "faz os slides da aula X", "transforma essa gravação em aula", "põe esta aula na paleta da TE", "deixa essa apresentação com a cara da Turma Especial", "refaz a aula", "corrige a página N", "gera o deck da matéria" ou "gera o PDF da aula". Não use para o mapa que conta a aula inteira (skill `mapa-narrativo`) nem para criar aula sem material do professor.
+description: Monta a aula de um curso da igreja (por padrão, a Turma Especial, cuja identidade vem no plugin) a partir da palavra do professor (texto por extenso, gravação transcrita ou PowerPoint), numa apresentação HTML que o professor usa na aula e o aluno recebe para estudar; e põe na paleta da Turma Especial uma aula que já existe. Trabalha na pasta do curso que a pessoa recebeu pronta e conduz o briefing, o esqueleto aprovado, a montagem pelo motor, as conferências, o validador de entendimento e o registro. Use quando pedirem "monta a aula", "põe esse texto-base em slides", "faz os slides da aula X", "transforma essa gravação em aula", "põe esta aula na paleta da TE", "deixa essa apresentação com a cara da Turma Especial", "refaz a aula", "corrige a página N", "gera o deck da matéria" ou "gera o PDF da aula". Não use para o mapa que conta a aula inteira (skill `mapa-narrativo`) nem para criar aula sem material do professor.
 ---
 
 # Montar aula
 
-> **v0.2 (12/11/2026).** Escrita a partir do caminho que funcionou nas 8 aulas de Epístolas Paulinas II; ainda em calibração numa aula real. Desde a 0.2 a skill se basta sozinha: a identidade da Turma Especial, a didática, a Bíblia e as regras de fonte vêm dentro dela, e ela monta a pasta do curso na primeira utilização. Cada atrito encontrado vira uma linha em `sugestoes/` da pasta do curso (seção 10).
+> **v0.2.1 (12/11/2026).** Escrita a partir do caminho que funcionou nas 8 aulas de Epístolas Paulinas II; ainda em calibração numa aula real. Desde a 0.2 a skill se basta sozinha: a identidade da Turma Especial, a didática, a Bíblia e as regras de fonte vêm dentro dela. A pasta do curso chega pronta a quem usa: a skill não monta pasta. Cada atrito encontrado vira uma linha em `sugestoes/` da pasta do curso (seção 10).
 
 Transforma a palavra do professor numa apresentação. **A IA organiza, seleciona e ilustra; não acrescenta.** Tudo o que aparece na tela saiu do material do professor.
 
@@ -23,8 +23,8 @@ Sem os seis, a aula está "em produção", não "pronta".
 Confira nos arquivos, nesta ordem, e siga **uma** rota. Não presuma.
 
 **Primeiro, a pasta.** A pasta aberta (no Cowork, a pasta conectada; na aba Code, a pasta da sessão) tem `memoria.md` e `mapa-das-aulas.md`?
-- **Não:** é a primeira utilização. Siga `referencias/primeira-utilizacao.md` (pede uma pasta se não houver, monta o mínimo, dá o aviso de atualização) e volte aqui.
-- **Sim:** é a pasta de um curso. Se o `passagem.md` ainda não registra o aviso de atualização automática, dê o aviso (mesma referência, passo 4).
+- **Não:** a tarefa não está na pasta do curso. **Não monte pasta nem crie arquivos.** Diga, simples: "Esta tarefa não está na pasta do curso. Abra a pasta Turma Especial que você recebeu (no campo de mensagem, + > Adicionar pasta) e me peça de novo. Se você não tem essa pasta, peça a quem cuida do curso." E pare.
+- **Sim:** é a pasta do curso. Se o `passagem.md` ainda não registra o aviso de atualização automática, dê o aviso (`referencias/aviso-de-atualizacao.md`).
 
 **Depois, a rota.** Ache a pasta da aula (`materias/<matéria>/aula-N/`). Se ela não existe, pergunte a matéria e o número da aula, crie a pasta com `fonte/` dentro e guarde ali o material recebido (arquivo anexado ou texto colado no chat, salvo como `.md`).
 
@@ -109,7 +109,7 @@ Sempre que um passo daqui não servir, faltar ou atrapalhar, escreva uma linha e
 ## Referências desta skill
 | Arquivo | Quando ler |
 |---|---|
-| `referencias/primeira-utilizacao.md` | Seção 0: a pasta ainda não é de um curso (monta o mínimo e dá o aviso de atualização) |
+| `referencias/aviso-de-atualizacao.md` | Seção 0: o aviso de atualização automática (uma vez por pasta) e como desligar |
 | `referencias/regras-de-fonte.md` | Sempre: só a palavra do professor |
 | `referencias/curso-turma-especial.md` | Sempre: o curso padrão e as regras da marca que valem para slide |
 | `referencias/didatica.md` | Seção 2: as perguntas do briefing |
@@ -122,4 +122,3 @@ Sempre que um passo daqui não servir, faltar ou atrapalhar, escreva uma linha e
 | `referencias/pasta-do-curso.md` | Quando a pasta não estiver como esperado, ou para abrir uma matéria ou aula nova |
 | `scripts/motor/README.md` | Comandos, dependências e conferências do motor |
 | `cursos/turma-especial/` | A identidade (logo, cores, fontes com as licenças, design system) e os mapas-base da Turma Especial. Não se edita por pedido de aula: mudança de marca é versão nova do plugin |
-| `modelo-da-pasta/` | Os arquivos mínimos da pasta do curso, copiados na primeira utilização |
